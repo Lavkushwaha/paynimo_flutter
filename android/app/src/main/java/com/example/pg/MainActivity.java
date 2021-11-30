@@ -82,14 +82,14 @@ public class MainActivity extends FlutterActivity {
         checkout.setTransactionSubType(PaymentActivity.TRANSACTION_SUBTYPE_DEBIT);
         checkout.setTransactionCurrency("INR");
         checkout.setTransactionAmount("50");
-        checkout.setTransactionDateTime("08-02-2021");
+        checkout.setTransactionDateTime("30-11-2021");
         checkout.setConsumerIdentifier("10086");
         checkout.setConsumerEmailID("rohitbhard@gmail.com");
         checkout.setConsumerMobileNumber("8826120009");
         checkout.setConsumerAccountNo("");
         checkout.addCartItem("FIRST", "1", "0.0", "0.0", "", "", "", "");
         checkout.setPaymentInstructionAction("Y");
-        checkout.setPaymentInstructionStartDateTime("08-02-2021");
+        checkout.setPaymentInstructionStartDateTime("30-11-2021");
         checkout.setPaymentInstructionEndDateTime("25-02-2050");
         checkout.setPaymentInstructionLimit("100");
         checkout.setPaymentInstructionFrequency("ADHO");
